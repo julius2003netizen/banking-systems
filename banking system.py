@@ -1,7 +1,7 @@
-class Bank account:
+class BankAccount:
     def __init__(self, account_number, account_holder_name, initial_balance=0):
-        self.house_number = account_number
-        self.house_holder_name = account_holder_name
+        self.account_number = account_number
+        self.account_holder_name = account_holder_name
         self.balance = initial_balance
         self.transaction_history = []  # A list to store transaction history
 

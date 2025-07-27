@@ -1,5 +1,5 @@
-class juliHomes:
-    def __init__(self, house_number, house_holder_name, initial_rent=0):
+class Bank account:
+    def __init__(self, account_number, account_holder_name, initial_balance=0):
         self.house_number = account_number
         self.house_holder_name = account_holder_name
         self.balance = initial_balance
